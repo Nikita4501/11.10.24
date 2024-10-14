@@ -85,7 +85,7 @@ int main()
 	cout << "\nМинимум: " << Min(x, y) << endl;
 	cout << "Максимум: " << Max(x, y) << endl;
 
-	int x1 = 32, y1 = 34.5;
+	int x = 10.5, y = 2.5;
 	cout << "Минимум: " << Min(x, y) << endl;
 	cout << "Максимум: " << Max(x, y) << endl;
 	return 0;
