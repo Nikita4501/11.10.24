@@ -2,7 +2,6 @@
 #include<string>
 using namespace std;
 
-// Арифметические операции
 float Sum(float a, float b)
 {
 	return a + b;
@@ -28,8 +27,6 @@ float Delost(float j, float l)
 	return j / l;
 }
 
-
-// Логические операции
 float E(float a1, float b1) 
 {
 	return a1 == b1;
@@ -75,7 +72,6 @@ float L4(float a9)
 	return !a9;
 }
 
-// Минимум и Максимум
 float Min(float a, float b) 
 {
 	return (a < b) ? a : b;
